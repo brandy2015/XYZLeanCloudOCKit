@@ -1,0 +1,22 @@
+PODS:
+  - LeanCloudObjc (13.9.3):
+    - LeanCloudObjc/Realtime (= 13.9.3)
+  - LeanCloudObjc/Foundation (13.9.3)
+  - "LeanCloudObjc/Protobuf+Protocol (13.9.3)"
+  - LeanCloudObjc/Realtime (13.9.3):
+    - LeanCloudObjc/Foundation (= 13.9.3)
+    - "LeanCloudObjc/Protobuf+Protocol (= 13.9.3)"
+
+DEPENDENCIES:
+  - LeanCloudObjc
+
+SPEC REPOS:
+  trunk:
+    - LeanCloudObjc
+
+SPEC CHECKSUMS:
+  LeanCloudObjc: 1bac20f8797bb00c7bae0d3c503ed18f050a289b
+
+PODFILE CHECKSUM: 0ebf1acdbbe38a4561bc2c099509e4ad0ab7083d
+
+COCOAPODS: 1.12.1

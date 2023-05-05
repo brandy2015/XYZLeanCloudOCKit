@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790EE3ED48E7B2E80A5EB7AE /* Pods_XYZLeanCloudOCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C0DEF7E9FA0BA722A9F99 /* Pods_XYZLeanCloudOCKit.framework */; };
 		D6F67DFB2A053ED900C8F5DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F67DFA2A053ED900C8F5DB /* AppDelegate.swift */; };
 		D6F67DFD2A053ED900C8F5DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F67DFC2A053ED900C8F5DB /* SceneDelegate.swift */; };
 		D6F67DFF2A053ED900C8F5DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F67DFE2A053ED900C8F5DB /* ViewController.swift */; };
 		D6F67E022A053ED900C8F5DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F67E002A053ED900C8F5DB /* Main.storyboard */; };
 		D6F67E042A053EDB00C8F5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F67E032A053EDB00C8F5DB /* Assets.xcassets */; };
 		D6F67E072A053EDB00C8F5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F67E052A053EDB00C8F5DB /* LaunchScreen.storyboard */; };
+		D6F67E112A0540A600C8F5DB /* WozaiLCUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F67E0F2A0540A600C8F5DB /* WozaiLCUser.swift */; };
+		D6F67E122A0540A600C8F5DB /* VC_TestLeanCloudOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F67E102A0540A600C8F5DB /* VC_TestLeanCloudOC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DC508E886E4E15BE1B258DA /* Pods-XYZLeanCloudOCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZLeanCloudOCKit.debug.xcconfig"; path = "Target Support Files/Pods-XYZLeanCloudOCKit/Pods-XYZLeanCloudOCKit.debug.xcconfig"; sourceTree = "<group>"; };
+		8A5C0DEF7E9FA0BA722A9F99 /* Pods_XYZLeanCloudOCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZLeanCloudOCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F67DF72A053ED900C8F5DB /* XYZLeanCloudOCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZLeanCloudOCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F67DFA2A053ED900C8F5DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6F67DFC2A053ED900C8F5DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		D6F67E032A053EDB00C8F5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6F67E062A053EDB00C8F5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6F67E082A053EDB00C8F5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F67E0F2A0540A600C8F5DB /* WozaiLCUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WozaiLCUser.swift; sourceTree = "<group>"; };
+		D6F67E102A0540A600C8F5DB /* VC_TestLeanCloudOC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_TestLeanCloudOC.swift; sourceTree = "<group>"; };
+		F90EB54C386A421A19428956 /* Pods-XYZLeanCloudOCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZLeanCloudOCKit.release.xcconfig"; path = "Target Support Files/Pods-XYZLeanCloudOCKit/Pods-XYZLeanCloudOCKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790EE3ED48E7B2E80A5EB7AE /* Pods_XYZLeanCloudOCKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A46AAAAA693E5EB5353D22D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DC508E886E4E15BE1B258DA /* Pods-XYZLeanCloudOCKit.debug.xcconfig */,
+				F90EB54C386A421A19428956 /* Pods-XYZLeanCloudOCKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D6F67DEE2A053ED900C8F5DB = {
 			isa = PBXGroup;
 			children = (
 				D6F67DF92A053ED900C8F5DB /* XYZLeanCloudOCKit */,
 				D6F67DF82A053ED900C8F5DB /* Products */,
+				7A46AAAAA693E5EB5353D22D /* Pods */,
+				D9A0D32F0F48F58BD2F44816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +79,30 @@
 				D6F67DFA2A053ED900C8F5DB /* AppDelegate.swift */,
 				D6F67DFC2A053ED900C8F5DB /* SceneDelegate.swift */,
 				D6F67DFE2A053ED900C8F5DB /* ViewController.swift */,
+				D6F67E0E2A053FFE00C8F5DB /* Sources */,
 				D6F67E002A053ED900C8F5DB /* Main.storyboard */,
 				D6F67E032A053EDB00C8F5DB /* Assets.xcassets */,
 				D6F67E052A053EDB00C8F5DB /* LaunchScreen.storyboard */,
 				D6F67E082A053EDB00C8F5DB /* Info.plist */,
 			);
 			path = XYZLeanCloudOCKit;
+			sourceTree = "<group>";
+		};
+		D6F67E0E2A053FFE00C8F5DB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D6F67E102A0540A600C8F5DB /* VC_TestLeanCloudOC.swift */,
+				D6F67E0F2A0540A600C8F5DB /* WozaiLCUser.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D9A0D32F0F48F58BD2F44816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C0DEF7E9FA0BA722A9F99 /* Pods_XYZLeanCloudOCKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6F67E0B2A053EDB00C8F5DB /* Build configuration list for PBXNativeTarget "XYZLeanCloudOCKit" */;
 			buildPhases = (
+				F5473BBA96BD590273492396 /* [CP] Check Pods Manifest.lock */,
 				D6F67DF32A053ED900C8F5DB /* Sources */,
 				D6F67DF42A053ED900C8F5DB /* Frameworks */,
 				D6F67DF52A053ED900C8F5DB /* Resources */,
+				3883049345323DC88363DCA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +143,7 @@
 				};
 			};
 			buildConfigurationList = D6F67DF22A053ED900C8F5DB /* Build configuration list for PBXProject "XYZLeanCloudOCKit" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,13 +173,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3883049345323DC88363DCA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYZLeanCloudOCKit/Pods-XYZLeanCloudOCKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYZLeanCloudOCKit/Pods-XYZLeanCloudOCKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYZLeanCloudOCKit/Pods-XYZLeanCloudOCKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5473BBA96BD590273492396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYZLeanCloudOCKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6F67DF32A053ED900C8F5DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F67E112A0540A600C8F5DB /* WozaiLCUser.swift in Sources */,
 				D6F67DFF2A053ED900C8F5DB /* ViewController.swift in Sources */,
 				D6F67DFB2A053ED900C8F5DB /* AppDelegate.swift in Sources */,
+				D6F67E122A0540A600C8F5DB /* VC_TestLeanCloudOC.swift in Sources */,
 				D6F67DFD2A053ED900C8F5DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +366,7 @@
 		};
 		D6F67E0C2A053EDB00C8F5DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC508E886E4E15BE1B258DA /* Pods-XYZLeanCloudOCKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +380,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +396,7 @@
 		};
 		D6F67E0D2A053EDB00C8F5DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F90EB54C386A421A19428956 /* Pods-XYZLeanCloudOCKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
