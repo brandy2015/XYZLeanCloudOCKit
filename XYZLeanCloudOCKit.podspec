@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XYZLeanCloudOCKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "持续升级"
 
   s.description  = <<-DESC
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.author             = { "Brandy" => "" }
   s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
   s.platform     = :ios, "14.0"
-  s.source       = { :git => "https://github.com/brandy2015/XYZLeanCloudOCKit.git", :tag => "0.0.1"}
+  s.source       = { :git => "https://github.com/brandy2015/XYZLeanCloudOCKit.git", :tag => "0.0.2"}
   s.source_files = "XYZLeanCloudOCKit/Sources/*"
   
   

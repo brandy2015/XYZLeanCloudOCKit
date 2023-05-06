@@ -2,7 +2,8 @@
 import UIKit
 import LeanCloudObjc
 
-class WozaiLCUser :NSObject{
+public class WozaiLCUser :NSObject{
+    
     var objectId: String?
     var username: String?
     var trueName: String?
@@ -39,7 +40,7 @@ class WozaiLCUser :NSObject{
     
 //    override var descri
     
-    override var description: String {
+    public override var description: String {
         var str = "WozaiLCUser {"
         str += " objectId: \(objectId ?? "nil"),"
         str += " username: \(username ?? "nil"),"

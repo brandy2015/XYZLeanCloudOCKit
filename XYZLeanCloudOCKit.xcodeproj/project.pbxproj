@@ -16,6 +16,7 @@
 		D6F67E072A053EDB00C8F5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F67E052A053EDB00C8F5DB /* LaunchScreen.storyboard */; };
 		D6F67E112A0540A600C8F5DB /* WozaiLCUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F67E0F2A0540A600C8F5DB /* WozaiLCUser.swift */; };
 		D6F67E122A0540A600C8F5DB /* VC_TestLeanCloudOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F67E102A0540A600C8F5DB /* VC_TestLeanCloudOC.swift */; };
+		D6F67E142A05439C00C8F5DB /* WoZaiFriendsFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F67E132A05439C00C8F5DB /* WoZaiFriendsFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D6F67E082A053EDB00C8F5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6F67E0F2A0540A600C8F5DB /* WozaiLCUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WozaiLCUser.swift; sourceTree = "<group>"; };
 		D6F67E102A0540A600C8F5DB /* VC_TestLeanCloudOC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_TestLeanCloudOC.swift; sourceTree = "<group>"; };
+		D6F67E132A05439C00C8F5DB /* WoZaiFriendsFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoZaiFriendsFunction.swift; sourceTree = "<group>"; };
 		F90EB54C386A421A19428956 /* Pods-XYZLeanCloudOCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZLeanCloudOCKit.release.xcconfig"; path = "Target Support Files/Pods-XYZLeanCloudOCKit/Pods-XYZLeanCloudOCKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				D6F67DFA2A053ED900C8F5DB /* AppDelegate.swift */,
 				D6F67DFC2A053ED900C8F5DB /* SceneDelegate.swift */,
 				D6F67DFE2A053ED900C8F5DB /* ViewController.swift */,
+				D6F67E102A0540A600C8F5DB /* VC_TestLeanCloudOC.swift */,
 				D6F67E0E2A053FFE00C8F5DB /* Sources */,
 				D6F67E002A053ED900C8F5DB /* Main.storyboard */,
 				D6F67E032A053EDB00C8F5DB /* Assets.xcassets */,
@@ -91,8 +94,8 @@
 		D6F67E0E2A053FFE00C8F5DB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D6F67E102A0540A600C8F5DB /* VC_TestLeanCloudOC.swift */,
 				D6F67E0F2A0540A600C8F5DB /* WozaiLCUser.swift */,
+				D6F67E132A05439C00C8F5DB /* WoZaiFriendsFunction.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				D6F67DFF2A053ED900C8F5DB /* ViewController.swift in Sources */,
 				D6F67DFB2A053ED900C8F5DB /* AppDelegate.swift in Sources */,
 				D6F67E122A0540A600C8F5DB /* VC_TestLeanCloudOC.swift in Sources */,
+				D6F67E142A05439C00C8F5DB /* WoZaiFriendsFunction.swift in Sources */,
 				D6F67DFD2A053ED900C8F5DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
